@@ -6,9 +6,9 @@ There are two supported ways to install PyImageJ: via
 Although both tools are great
 [for different reasons](https://www.anaconda.com/blog/understanding-conda-and-pip),
 if you have no strong preference then we suggest using mamba because it will
-manage PyImageJ's non-Python dependencies
-[OpenJDK](https://en.wikipedia.org/wiki/OpenJDK) (a.k.a. Java) and
-[Maven](https://maven.apache.org/). If you use pip, you will need to install
+manage PyImageJ's non-Python dependencies:
+[Java](https://www.azul.com/downloads/?version=java-8-lts&package=jdk#zulu) (a.k.a. Java) and
+[Maven](https://maven.apache.org/install.html). If you use pip, you will need to install
 those two things separately.
 
 ## Installing via conda/mamba
